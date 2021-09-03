@@ -1,0 +1,26 @@
+.transactionHistory {
+  margin-left: 50px;
+  width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.head {
+  background-color: blue;
+  color: white;
+  height: 50px;
+}
+
+.label {
+  height: 50px;
+  text-align: center;
+}
+
+.label:nth-child(2n) {
+  background-color: burlywood;
+}
+
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+}
